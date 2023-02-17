@@ -2,6 +2,7 @@
 Order Management App
 
 Frontend-side tools and technologies used
+
 •	React
 •	Modern Javascript(ES6)
 •	NodeJS and NPM
@@ -10,6 +11,7 @@ Frontend-side tools and technologies used
 •	Axios HTTP Library
 
 Server-side Technologies used
+
 •	Spring Boot
 •	SpringData JPA
 •	Maven 3.2+
