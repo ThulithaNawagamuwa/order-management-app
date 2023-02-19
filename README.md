@@ -50,12 +50,12 @@ Following diagram shows the implemented architecture. By using this application 
 
 ![Proposed Microservice Architecture](https://user-images.githubusercontent.com/84464963/219535017-34b5e4f5-1e07-4926-82ae-ee7e9c9beaed.PNG)
 
-**ERD**
+**Proposed ERD**
 ![ERD - Order Management System](https://user-images.githubusercontent.com/84464963/219979717-808f9680-26da-4c5a-b183-f3ab90c9d49e.png)
 
 
 
-**DDL**
+**Proposed DDL**
 
 CREATE TABLE `Customer` (
   `Customer_ID` int,
