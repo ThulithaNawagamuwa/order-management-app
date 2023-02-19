@@ -50,4 +50,43 @@ Following diagram shows the implemented architecture. By using this application 
 
 ![Proposed Microservice Architecture](https://user-images.githubusercontent.com/84464963/219535017-34b5e4f5-1e07-4926-82ae-ee7e9c9beaed.PNG)
 
+**ERD**
+![ERD - Order Management System](https://user-images.githubusercontent.com/84464963/219979717-808f9680-26da-4c5a-b183-f3ab90c9d49e.png)
+
+
+
+**DDL**
+
+CREATE TABLE `Customer` (
+  `Customer_ID` int,
+  `FirstName` varchar(50),
+  `LastName` varchar(50),
+  `Address` varchar(50),
+  `Phone` varchar(10),
+  PRIMARY KEY (`Customer_ID`)
+);
+
+CREATE TABLE `Order` (
+  `Order_ID` int,
+  `Customer_ID` int,
+  `Customer_name ` varchar(50),
+  `Shipping_address` varchar(50),
+  `Shipping_date` datetime,
+  `Product_ID` int,
+  `Quantity` int,
+  `Total_cost` int,
+  `Status` varchar(50),
+  PRIMARY KEY (`Order_ID`),
+  FOREIGN KEY (`Customer_ID`) REFERENCES `Customer`(`Customer_ID`)
+);
+
+CREATE TABLE `Product` (
+  `Product_ID` int,
+  `Product_name` varchar(50),
+  `Product_type` varchar(50),
+  `Price` int,
+  PRIMARY KEY (`Product_ID`)
+);
+
+
 
