@@ -94,7 +94,7 @@ CREATE TABLE `Product` (
 
 
 **Proposed Design Diagram**
-![Design Diagram - Order Management System](https://user-images.githubusercontent.com/84464963/219985225-260d581f-6449-41cf-ac1a-33240759b5ab.png)
+![Design Diagram - Order Management System](https://user-images.githubusercontent.com/84464963/219986512-7204efcf-64b4-488c-8438-5d409c5b35ba.png)
 
 
 
