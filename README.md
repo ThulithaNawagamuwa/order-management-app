@@ -89,9 +89,9 @@ CREATE TABLE `Product` (
 );
 
 
-
-
-
+\
+\
+\
 
 **Proposed Design Diagram**
 ![Design Diagram - Order Management System](https://user-images.githubusercontent.com/84464963/219985225-260d581f-6449-41cf-ac1a-33240759b5ab.png)
