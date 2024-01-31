@@ -1,4 +1,4 @@
-# SE-Assignment
+# Order Management App
 Order Management App
 
 **Frontend-side tools and technologies used**
